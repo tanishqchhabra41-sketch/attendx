@@ -6,8 +6,6 @@ A futuristic smart attendance management system built using:
 - HTML
 - CSS
 - JavaScript
-- C Language
-
 ATTENDX helps teachers manage student attendance with a modern dashboard interface and real-time attendance analytics.
 
 ---
@@ -46,8 +44,7 @@ ATTENDX provides a futuristic dashboard with:
 | Python Flask | Backend Server |
 | HTML | Frontend Structure |
 | CSS | UI Design |
-| JavaScript | Frontend Logic |
-| C Language | Core Attendance Module |
+| JavaScript | Frontend Logic | Core Attendance Module |
 | File Handling | Data Storage |
 
 ---
@@ -72,6 +69,4 @@ ATTENDX/
 │   ├── style.css
 │   └── script.js
 │
-└── c_modules/
-    └── smat.cpp
 '''

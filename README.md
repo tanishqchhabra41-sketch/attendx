@@ -51,6 +51,10 @@ ATTENDX provides a futuristic dashboard with:
 | File Handling | Data Storage |
 
 ---
+#screenshots
+<img width="1725" height="920" alt="Screenshot 2026-05-27 005706" src="https://github.com/user-attachments/assets/772be486-07f2-4fa3-8309-c572236a2cdb" />
+#link
+https://attendx-1-unv4.onrender.com/
 
 # 📂 Project Structure
 
@@ -70,8 +74,4 @@ ATTENDX/
 │
 └── c_modules/
     └── smat.cpp
-# screenshot
-<img width="1725" height="920" alt="Screenshot 2026-05-27 005706" src="https://github.com/user-attachments/assets/aacf6396-e724-4a56-a1de-72d4dac2c0b2" />
-# link
-https://attendx-1-unv4.onrender.com/
-
+'''

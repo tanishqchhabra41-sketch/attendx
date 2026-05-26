@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ATTENDX</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+
+        <!-- LEFT PANEL -->
+
+        <div class="glass-card">
+
+            <h1>ATTENDX</h1>
+
+            <p class="tagline">
+                Smart Attendance Management
+            </p>
+
+
+            <!-- ADD STUDENT -->
+
+            <div class="section">
+
+                <h2>Add Student</h2>
+
+                <input type="number" id="studentRoll" placeholder="Roll Number">
+
+                <input type="text" id="studentName" placeholder="Student Name">
+
+                <button onclick="addStudent()">
+                    Add Student
+                </button>
+
+            </div>
+
+
+
+            <!-- MARK ATTENDANCE -->
+
+            <div class="section">
+
+                <div class="attendance-header">
+
+                    <h2>Mark Attendance</h2>
+
+                    <button onclick="saveAttendance()">
+                        Save Attendance
+                    </button>
+
+                </div>
+
+                <div id="studentAttendanceList">
+
+                </div>
+
+            </div>
+
+
+            <div id="message"></div>
+
+        </div>
+
+
+
+        <!-- RIGHT PANEL -->
+
+        <div class="records-card">
+
+            <h2>Student Analytics</h2>
+
+            <p class="subtitle">
+                Individual Attendance Percentage
+            </p>
+
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Roll</th>
+
+                        <th>Name</th>
+
+                        <th>%</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="recordsTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
